@@ -6,7 +6,7 @@
     "url": "https://github.com/pydevsg/angular8_login_signup"
   },
   "scripts": {
-    "heroku-postbuild": "ng build --prod",
+    "heroku-postbuild": "webpack -p",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
